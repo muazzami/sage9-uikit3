@@ -1,3 +1,13 @@
+# Changes Made to this repo
+1. Removed Bootstrap
+2. Added UIkit
+3. Imported UIkit CSS and JS files into main.scss and main.js
+4. Import UIkit object and Icons into common.js
+5. Remove eslint errors from stylesheets (yarn build generate eslint errors on default css when bootstrap is removed)
+6. Test a toggle on page.blade.php
+
+`Yarn && Yarn build` should be enough to install all the dependencies.
+
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
